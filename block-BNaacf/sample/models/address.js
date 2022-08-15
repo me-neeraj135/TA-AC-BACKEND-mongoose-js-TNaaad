@@ -8,5 +8,5 @@ let addressSchema = new Schema({
   village: String,
   city: String,
   sate: String,
-  user: Schema.Types.ObjectId(),
+  user: Schema.Types.ObjectId,
 });
