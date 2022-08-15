@@ -15,6 +15,9 @@ mongoose.connect(
 
 let app = express();
 
+app.get(`/`, (req, res) => {
+  res.send(`Welcome to mongoose`);
+});
 app.listen(4000, () => {
   console.log(`server listening on port 4k`);
 });
