@@ -15,4 +15,5 @@ let userSchema = new Schema(
 
 userSchema = new Schema({
   email: { type: String, lowercase },
+  age: 0,
 });
