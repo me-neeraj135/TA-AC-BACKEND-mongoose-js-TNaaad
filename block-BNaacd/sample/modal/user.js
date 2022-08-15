@@ -7,13 +7,8 @@ let Schema = mongoose.Schema;
 let userSchema = new Schema(
   {
     name: String,
-    email: String,
-    age: Number,
+    email: { type: String, lowercase: true },
+    age: { type: Number, default: 0 },
   },
   { timestamps: true }
 );
-
-userSchema = new Schema({
-  email: { type: String, lowercase },
-  age: 0,
-});
