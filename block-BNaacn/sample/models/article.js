@@ -11,6 +11,7 @@ let articleSchema = new Schema(
     description: { type: String },
     tags: [String],
     createdAt: { type: Date, default: new Date() },
+    likes: { type: Number, default: 0 },
   },
   { timestamps }
 );
