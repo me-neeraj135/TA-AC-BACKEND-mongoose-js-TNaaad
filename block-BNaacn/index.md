@@ -39,7 +39,7 @@ Q. Add address Schema with fields
 
 Q. Update address schema to contain required validators for state and city field.
 
-Q. Add favourites in user schema of type array of strings.
+Q. Add favorites in user schema of type array of strings.
 
 Q. Add timestamps to user and address schema.
 
