@@ -1,4 +1,4 @@
-writeCode
+<!-- writeCode -->
 
 Design schemas for a blog application which will have
 
